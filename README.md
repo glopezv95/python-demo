@@ -1,8 +1,3 @@
-<style>
-    body { text-align: justify; }
-    ul { padding-left: 2rem }
-    li { list-style: none; }
-</style>
 # PostgreSQL - python company data project
 This is a python project that generates a *PostgreSQL* database using `python`'s `psycopg` package and populates it using, among other, tools, `python`'s `numpy` package.
 
