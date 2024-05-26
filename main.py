@@ -1,4 +1,4 @@
-from secondary import compute
+from populate import compute
 
 def main():
     
