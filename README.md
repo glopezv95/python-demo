@@ -46,7 +46,7 @@ This script contains;
 - the parent Class `Table`. This class contains attributes that describe the tables, as well as functions to drop, generate, populate and commit them to the database.
 
 - the child class `PeopleTable`. This subclass contains specific logic to adecuately handle the `people` table. This includes asking the user for its length, as well as some additional logic to generate random data, copy it and use it to populate the `people` table inside the database.
-### `populate.py`
+### `comp.py`
 This script stores the function `compute`, which creates tables generating classes from the `models.py` applying the logic needed on each table for it to be properly generated and populated.
 ### `data.py`
 This script contains variables that store miscellaneous information needed to generate the tables. This includes, among others, a json file containing Spain's Autonomous Communities and their respective Provinces, as well as dictionaries containing the fields of each table as keys and their SQL types as values.

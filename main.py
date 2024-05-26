@@ -1,4 +1,4 @@
-from populate import compute
+from comp import compute
 
 def main():
     
