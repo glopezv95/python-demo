@@ -1,4 +1,4 @@
-import models
+import tables
 import data
 from tqdm import tqdm
 import numpy as np
@@ -11,7 +11,7 @@ def compute(name:str):
         num_rows = input('Please select number of rows for the people table: ')
         print()
         
-        table = models.PeopleTable(
+        table = tables.PeopleTable(
             name = 'people',
             cols = data.PEOPLE_DICT,
             num_rows = num_rows
@@ -23,7 +23,7 @@ def compute(name:str):
         
     elif name == 'ccaa':
         
-        table = models.Table(
+        table = tables.Table(
             name=name,
             cols=data.CCAA_DICT
         )
@@ -38,7 +38,7 @@ def compute(name:str):
     
     elif name == 'provinces':
     
-        table = models.Table(
+        table = tables.Table(
             name = name,
             cols = data.PROVINCE_DICT
         )
@@ -58,7 +58,7 @@ def compute(name:str):
     
     elif name == 'departments':
         
-        table = models.Table(
+        table = tables.Table(
             name = name,
             cols = data.DEPARTMENTS_DICT
         )
@@ -86,7 +86,7 @@ def compute(name:str):
             
     elif name == 'projects':
         
-        table = models.Table(
+        table = tables.Table(
             name = name,
             cols = data.PROJECTS_DICT
         )
